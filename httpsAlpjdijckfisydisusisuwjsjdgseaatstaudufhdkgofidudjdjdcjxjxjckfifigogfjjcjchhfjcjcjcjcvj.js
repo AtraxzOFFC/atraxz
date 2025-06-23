@@ -73,8 +73,8 @@ const products = [{
 }, {
   'id': 0x7,
   'name': "Panel Pterodactyl",
-  'description': "1-Unli",
-  'price': 1-10.000,
+  'description': "Public",
+  'price': 0x1388,
   'image': "https://files.catbox.moe/qrzy3h.jpg",
   'badge': "Limited Edition",
   'checkoutPage': "ysusgdhxjxbxncnvjvjchdtararaywhwydydutihohohogkfkfkckckckckckcjxjxjfkffjfifjfifjshsaaswetyrfjdsgag.html"
