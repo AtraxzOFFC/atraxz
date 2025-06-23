@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Checkout - by atraxz</title>
+  <title>Checkout - By Atraxz</title>
   <style>
     *{box-sizing:border-box;font-family:'Segoe UI',sans-serif}body{margin:0;padding:0;background:#f8f8f8;color:#333}header{background-color:#2c3e50;color:#fff;padding:1rem 2rem;text-align:center}main{padding:2rem;max-width:800px;margin:auto}h2{margin-bottom:1rem}.cart-items{background:#fff;padding:1rem;border-radius:10px;margin-bottom:2rem;box-shadow:0 4px 12px rgb(0 0 0 / .1);animation:fadeIn .5s ease forwards}.cart-item{display:flex;justify-content:space-between;margin:.5rem 0;border-bottom:1px solid #eee;padding-bottom:.5rem}.cart-item:last-child{border-bottom:0}.total{text-align:right;margin-top:1rem;font-size:1.2rem;font-weight:700;color:#27ae60}.checkout-form{background:#fff;padding:1rem;border-radius:10px;box-shadow:0 4px 12px rgb(0 0 0 / .1);animation:fadeIn .8s ease forwards}.checkout-form label{display:block;margin-top:1rem}.checkout-form input,.checkout-form textarea,.checkout-form select{width:100%;padding:.7rem;margin-top:.5rem;border:1px solid #ccc;border-radius:6px}.checkout-form button{margin-top:1.5rem;padding:.8rem 2rem;background:#3498db;color:#fff;border:0;border-radius:6px;cursor:pointer;font-size:1rem;transition:background .3s ease}.checkout-form button:hover{background:#2980b9}@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}footer{text-align:center;padding:1rem;background:#ecf0f1;margin-top:2rem}
   </style>
@@ -28,20 +28,20 @@
         <label for="brand">Pilih produk</label>
         <select id="brand" required onchange="updateTotal()">
           <option value="">-- PILIH PRODUK DISINI --</option>
-          <option value="MURBUG VIA TELE">MURBUG VIA TELE</option>
-          <option value="NOKOS PHILIPINA">NOKOS PHILIPINA</option>
-          <option value="NOKOS INDONESIA">NOKOS INDONESIA</option>
+          <option value="Murbug VVIP">Murbug VVIP</option>
+          <option value="Nokos Afrika">Nokos Afrika</option>
+          <option value="Nokos Indonesia">Nokos Indonesia</option>
           <option value="JASA BUG">JASA BUG</option>
-          <option value="JASA RENAME SC">JASA RENAME SC</option>
-          <option value="JASA BUAT LOGO">JASA BUAT LOGO</option>
+          <option value="Jasa Rename Script">Jasa Rename Script</option>
+          <option value="Jasa Buat Logo">Jasa Buat Logo</option>
           </select>
 
         <label for="payment">Metode Pembayaran</label>
         <select id="payment" required>
           <option value="">-- Pilih --</option>
-          <option value="cod">Bayar di Tempat</option>
-          <option value="transfer">Transfer Bank</option>
-          <option value="qris">QRIS</option>
+          <option value="Gopay">Gopay</option>
+          <option value="Dana">Dana</option>
+          <option value="Qris">Qris</option>
         </select>
 
         <button type="submit">Kirim Pesanan</button>
@@ -50,11 +50,11 @@
   </main>
 
   <footer>
-    &copy; 2025 Atraxz official. Terima kasih telah berbelanja!
+    &copy; 2025 Atraxz Development. Terima Kasih Telah Berbelanja!
   </footer>
 
   <script>
-    const product=JSON[_0x12cfa5(-0x6,-0xa)](localStorage['getItem']('checkoutProduct'))||{'name':_0x12cfa5(-0x8,-0x12)};function _0x12cfa5(_0x2fd330,_0x1253a7){return _0x2ae4(_0x2fd330- -0xa4,_0x1253a7);}document[_0x12cfa5(-0x2,-0x1)](_0x12cfa5(-0xc,-0x14))[_0x12cfa5(0x0,-0x1)]=product[_0x12cfa5(-0x1,-0xd)];function _0x2ae4(_0x228017,_0x2fc767){const _0x2ae439=_0x2fc7();return _0x2ae4=function(_0xe03e86,_0x200277){_0xe03e86=_0xe03e86-0x96;let _0x521b45=_0x2ae439[_0xe03e86];return _0x521b45;},_0x2ae4(_0x228017,_0x2fc767);}const brandPrices={'MURBUG\x20VIA\x20TELE':0xbb8,'NOKOS\x20PHILIPINA':0x1388,'NOKOS\x20INDONESIA':0xfa0,'JASA\x20BUG':0x3e8,'JASA\x20RENAME\x20SC':0x2710,'JASA\x20BUAT\x20LOGO':0x3e8};function _0x2fc7(){const _0x5f074d=['productPrice','value','productName','open','payment','checkoutForm','All\x20product','_blank','parse','checkoutProduct','\x0a💳\x20Pembayaran:\x20','preventDefault','getElementById','name','textContent','submit','*\x0a====================\x0a👤\x20Username:\x20','reset','brand','toLocaleString','Silakan\x20lengkapi\x20semua\x20data.','trim','total','\x0a🏢\x20Type:\x20','\x0a====================\x0aTerima\x20kasih\x20telah\x20berbelanja!\x0a\x20\x20\x20\x20\x20\x20','\x0a*Pesanan\x20Baru\x20dari\x20','Total:\x20Rp\x200','Rp\x200'];_0x2fc7=function(){return _0x5f074d;};return _0x2fc7();}function updateTotal(){function _0x566587(_0xca1801,_0x335ed4){return _0x12cfa5(_0xca1801- -0x159,_0x335ed4);}const _0x333da3=document[_0x566587(-0x15b,-0x14d)](_0x566587(-0x155,-0x151))['value'],_0x36c64d=brandPrices[_0x333da3]||0x0;document[_0x566587(-0x15b,-0x151)](_0x566587(-0x167,-0x174))['textContent']='Rp\x20'+_0x36c64d[_0x566587(-0x154,-0x14b)](),document[_0x566587(-0x15b,-0x15d)](_0x566587(-0x151,-0x14a))['textContent']='Total:\x20Rp\x20'+_0x36c64d[_0x566587(-0x154,-0x154)]();}document[_0x12cfa5(-0x2,0x8)](_0x12cfa5(-0x9,-0x2))['addEventListener'](_0x12cfa5(0x1,0x9),function(_0x2f518d){_0x2f518d[_0x2fc2ca(0x16d,0x176)]();const _0x390df1=document[_0x2fc2ca(0x16e,0x171)](_0x2fc2ca(0x16f,0x166))[_0x2fc2ca(0x163,0x165)][_0x2fc2ca(0x177,0x179)](),_0xbf46f6=document['getElementById'](_0x2fc2ca(0x166,0x174))[_0x2fc2ca(0x163,0x158)];function _0x2fc2ca(_0xa85cb8,_0x5cafcd){return _0x12cfa5(_0xa85cb8-0x170,_0x5cafcd);}const _0x3f465b=document[_0x2fc2ca(0x16e,0x17b)](_0x2fc2ca(0x174,0x179))[_0x2fc2ca(0x163,0x15f)];if(!_0x390df1||!_0xbf46f6||!_0x3f465b){alert(_0x2fc2ca(0x176,0x16a));return;}const _0x853ad1=brandPrices[_0x3f465b]||0x0,_0x4329c4=(_0x2fc2ca(0x17b,0x184)+_0x390df1+_0x2fc2ca(0x172,0x167)+_0x390df1+'\x0a🏷️\x20Produk:\x20'+product[_0x2fc2ca(0x16f,0x172)]+_0x2fc2ca(0x179,0x17c)+_0x3f465b+'\x0a💰\x20Harga:\x20Rp\x20'+_0x853ad1['toLocaleString']()+_0x2fc2ca(0x16c,0x174)+_0xbf46f6+_0x2fc2ca(0x17a,0x171))['trim'](),_0x464eee=encodeURIComponent(_0x4329c4),_0x2181d0='https://wa.me/6283187880500?text='+_0x464eee;window[_0x2fc2ca(0x165,0x15c)](_0x2181d0,_0x2fc2ca(0x169,0x169)),localStorage['removeItem'](_0x2fc2ca(0x16b,0x166)),this[_0x2fc2ca(0x173,0x175)](),document[_0x2fc2ca(0x16e,0x16f)](_0x2fc2ca(0x162,0x161))[_0x2fc2ca(0x170,0x162)]=_0x2fc2ca(0x17d,0x177),document[_0x2fc2ca(0x16e,0x162)](_0x2fc2ca(0x178,0x17c))[_0x2fc2ca(0x170,0x17b)]=_0x2fc2ca(0x17c,0x183);});
+    const product=JSON[_0x12cfa5(-0x6,-0xa)](localStorage['getItem']('checkoutProduct'))||{'name':_0x12cfa5(-0x8,-0x12)};function _0x12cfa5(_0x2fd330,_0x1253a7){return _0x2ae4(_0x2fd330- -0xa4,_0x1253a7);}document[_0x12cfa5(-0x2,-0x1)](_0x12cfa5(-0xc,-0x14))[_0x12cfa5(0x0,-0x1)]=product[_0x12cfa5(-0x1,-0xd)];function _0x2ae4(_0x228017,_0x2fc767){const _0x2ae439=_0x2fc7();return _0x2ae4=function(_0xe03e86,_0x200277){_0xe03e86=_0xe03e86-0x96;let _0x521b45=_0x2ae439[_0xe03e86];return _0x521b45;},_0x2ae4(_0x228017,_0x2fc767);}const brandPrices={'Murbug\x20VVI':0xbb8,'Nokos\x20Afrika':0x1388,'Nokos\x20Indo':0xfa0,'Jasa\x20Bug':0x3e8,'Jasa\x20Rename\x20Script':0x2710,'Jasa\x20Buat\x20Logo':0x3e8};function _0x2fc7(){const _0x5f074d=['productPrice','value','productName','open','payment','checkoutForm','All\x20product','_blank','parse','checkoutProduct','\x0a💳\x20Pembayaran:\x20','preventDefault','getElementById','name','textContent','submit','*\x0a====================\x0a👤\x20Username:\x20','reset','brand','toLocaleString','Silakan\x20lengkapi\x20semua\x20data.','trim','total','\x0a🏢\x20Type:\x20','\x0a====================\x0aTerima\x20kasih\x20telah\x20berbelanja!\x0a\x20\x20\x20\x20\x20\x20','\x0a*Pesanan\x20Baru\x20dari\x20','Total:\x20Rp\x200','Rp\x200'];_0x2fc7=function(){return _0x5f074d;};return _0x2fc7();}function updateTotal(){function _0x566587(_0xca1801,_0x335ed4){return _0x12cfa5(_0xca1801- -0x159,_0x335ed4);}const _0x333da3=document[_0x566587(-0x15b,-0x14d)](_0x566587(-0x155,-0x151))['value'],_0x36c64d=brandPrices[_0x333da3]||0x0;document[_0x566587(-0x15b,-0x151)](_0x566587(-0x167,-0x174))['textContent']='Rp\x20'+_0x36c64d[_0x566587(-0x154,-0x14b)](),document[_0x566587(-0x15b,-0x15d)](_0x566587(-0x151,-0x14a))['textContent']='Total:\x20Rp\x20'+_0x36c64d[_0x566587(-0x154,-0x154)]();}document[_0x12cfa5(-0x2,0x8)](_0x12cfa5(-0x9,-0x2))['addEventListener'](_0x12cfa5(0x1,0x9),function(_0x2f518d){_0x2f518d[_0x2fc2ca(0x16d,0x176)]();const _0x390df1=document[_0x2fc2ca(0x16e,0x171)](_0x2fc2ca(0x16f,0x166))[_0x2fc2ca(0x163,0x165)][_0x2fc2ca(0x177,0x179)](),_0xbf46f6=document['getElementById'](_0x2fc2ca(0x166,0x174))[_0x2fc2ca(0x163,0x158)];function _0x2fc2ca(_0xa85cb8,_0x5cafcd){return _0x12cfa5(_0xa85cb8-0x170,_0x5cafcd);}const _0x3f465b=document[_0x2fc2ca(0x16e,0x17b)](_0x2fc2ca(0x174,0x179))[_0x2fc2ca(0x163,0x15f)];if(!_0x390df1||!_0xbf46f6||!_0x3f465b){alert(_0x2fc2ca(0x176,0x16a));return;}const _0x853ad1=brandPrices[_0x3f465b]||0x0,_0x4329c4=(_0x2fc2ca(0x17b,0x184)+_0x390df1+_0x2fc2ca(0x172,0x167)+_0x390df1+'\x0a🏷️\x20Produk:\x20'+product[_0x2fc2ca(0x16f,0x172)]+_0x2fc2ca(0x179,0x17c)+_0x3f465b+'\x0a💰\x20Harga:\x20Rp\x20'+_0x853ad1['toLocaleString']()+_0x2fc2ca(0x16c,0x174)+_0xbf46f6+_0x2fc2ca(0x17a,0x171))['trim'](),_0x464eee=encodeURIComponent(_0x4329c4),_0x2181d0='https://wa.me/6283187880500?text='+_0x464eee;window[_0x2fc2ca(0x165,0x15c)](_0x2181d0,_0x2fc2ca(0x169,0x169)),localStorage['removeItem'](_0x2fc2ca(0x16b,0x166)),this[_0x2fc2ca(0x173,0x175)](),document[_0x2fc2ca(0x16e,0x16f)](_0x2fc2ca(0x162,0x161))[_0x2fc2ca(0x170,0x162)]=_0x2fc2ca(0x17d,0x177),document[_0x2fc2ca(0x16e,0x162)](_0x2fc2ca(0x178,0x17c))[_0x2fc2ca(0x170,0x17b)]=_0x2fc2ca(0x17c,0x183);});
   </script>
 </body>
 </html>
