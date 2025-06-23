@@ -27,7 +27,7 @@ const products = [{
   'name': "Murbug VVIP",
   'description': "Telegram",
   'price': 0xbb8,
-  'image': 'https://files.catbox.moe/qrzy3h.jpg',
+  'image': 'https://files.catbox.moe/k6wx9i.jpg',
   'badge': "Terbaru",
   'checkoutPage': "udufsraawudldjjxkckckckkvvkblhlblhogkdkddjdjdysstsrarwsedjdjfkfjdhjcjcjcvjvkvvivibjvhcg.html"
 }, {
@@ -35,7 +35,7 @@ const products = [{
   'name': "Nokos Afrika",
   'description': 'WhatsApp',
   'price': 0x1388,
-  'image': "https://files.catbox.moe/qrzy3h.jpg",
+  'image': "https://files.catbox.moe/k6wx9i.jpg",
   'badge': "Terbaru",
   'checkoutPage': "udufsraawudldjjxkckckckkvvkblhlblhogkdkddjdjdysstsrarwsedjdjfkfjdhjcjcjcvjvkvvivibjvhcg.html"
 }, {
@@ -43,7 +43,7 @@ const products = [{
   'name': "Nokos Indo",
   'description': "WhatsApp",
   'price': 0xfa0,
-  'image': 'https://files.catbox.moe/qrzy3h.jpg',
+  'image': 'https://files.catbox.moe/k6wx9i.jpg',
   'badge': "Terbaru",
   'checkoutPage': "udufsraawudldjjxkckckckkvvkblhlblhogkdkddjdjdysstsrarwsedjdjfkfjdhjcjcjcvjvkvvivibjvhcg.html"
 }, {
@@ -51,7 +51,7 @@ const products = [{
   'name': 'Jasbug',
   'description': "1x/Nomor",
   'price': 0x3e8,
-  'image': 'https://files.catbox.moe/qrzy3h.jpg',
+  'image': 'https://files.catbox.moe/k6wx9i.jpg',
   'badge': "Terbaru",
   'checkoutPage': 'udufsraawudldjjxkckckckkvvkblhlblhogkdkddjdjdysstsrarwsedjdjfkfjdhjcjcjcvjvkvvivibjvhcg.html'
 }, {
@@ -59,7 +59,7 @@ const products = [{
   'name': "Jasa Rename Script Bot",
   'description': "Free Req",
   'price': 0x2710,
-  'image': "https://files.catbox.moe/qrzy3h.jpg",
+  'image': "https://files.catbox.moe/k6wx9i.jpg",
   'badge': "Terbaru",
   'checkoutPage': 'udufsraawudldjjxkckckckkvvkblhlblhogkdkddjdjdysstsrarwsedjdjfkfjdhjcjcjcvjvkvvivibjvhcg.html'
 }, {
@@ -67,7 +67,7 @@ const products = [{
   'name': "Jasa Buat Logo",
   'description': "Free Req Foto",
   'price': 0x3e8,
-  'image': 'https://files.catbox.moe/qrzy3h.jpg',
+  'image': 'https://files.catbox.moe/k6wx9i.jpg',
   'badge': "Terbaru",
   'checkoutPage': "udufsraawudldjjxkckckckkvvkblhlblhogkdkddjdjdysstsrarwsedjdjfkfjdhjcjcjcvjvkvvivibjvhcg.html"
 }, {
@@ -75,7 +75,7 @@ const products = [{
   'name': "Panel Pterodactyl",
   'description': "Public",
   'price': 0x1388,
-  'image': "https://files.catbox.moe/qrzy3h.jpg",
+  'image': "https://files.catbox.moe/k6wx9i.jpg",
   'badge': "Limited Edition",
   'checkoutPage': "ysusgdhxjxbxncnvjvjchdtararaywhwydydutihohohogkfkfkckckckckckcjxjxjfkffjfifjfifjshsaaswetyrfjdsgag.html"
 }];
